@@ -1,6 +1,27 @@
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+* {
+    margin: 0;
+}
+
+div {
     color: #FFFFFF;
     background-color: #1D95BA;
-    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li { 
+    display: inline-block;
+   }
+
+p, li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
