@@ -2,6 +2,8 @@
     margin: 0;
 }
 
-.test {
-    background-color: blueviolet;
+/* Whole footer */
+.footer {
+    background-image: linear-gradient(to right, #1D95BA , #67CEE2);
+    text-align: center;
 }
