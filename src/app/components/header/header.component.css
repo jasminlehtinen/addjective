@@ -1,39 +1,36 @@
-* {
-    margin: 0;
-}
-
 /* Whole header */
 .header {
     color: #FFFFFF;
     background-image: linear-gradient(to right, #156573 , #1D95BA);
-    height: 50px;
     padding: 10px;
-    align-items: center;
+
+    height: 70px;
+    width: 100%;
+
+    top: 0;
+    position: fixed;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
 /* Clickables: title and stories */
 .clickable {
     display: flex;
     justify-content: space-between;
 }
-
 /* Title */
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+/* Stories nav */
 nav ul {
     display: flex;
     justify-content: space-around;
 }
-
-nav li { 
+nav li {
     display: block;
     text-decoration: none;
    }
-
 p, li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
